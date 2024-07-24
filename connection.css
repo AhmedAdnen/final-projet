@@ -1,0 +1,53 @@
+
+fieldset{
+    background-color: transparent;
+    width: 50%;
+    height: 200px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;
+    border: none;
+    border-radius: 20px;
+    color: blue;
+    gap: 20px;
+}
+form{
+    width: 30%;
+    height: 40%;
+    font-size: 20px;
+}
+fieldset input{
+    background-color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 34px;
+}
+img{
+    width: 20%;
+}
+.eee{
+    padding-top: 10px;
+    gap: 20px;
+}
+.uuu{
+    padding-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+button{
+    background-color: blue;
+    color: white;
+    border: none;
+    outline: none;
+    line-height: 1.5em;
+    border-radius: 5px;
+}
+.all{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./365173413.jpg");
+    background-size: cover;
+}

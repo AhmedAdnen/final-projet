@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USD - Informations et Taux de Change</title>
+    <link rel="stylesheet" href="usd.css">
+    <script src="scri.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Informations sur le Dollar Américain (USD)</h1>
+    </header>
+    <main>
+        <section>
+            <h2>À propos de l'USD</h2>
+            <p>Le dollar américain (USD) est la monnaie officielle des États-Unis. Il est l'une des principales monnaies de réserve au monde.</p>
+        </section>
+        <section>
+            <h2>Taux de Change Actuels</h2>
+            <table id="exchange-rates">
+                <thead>
+                    <tr>
+                        <th>Devise</th>
+                        <th>Taux de Change</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Les taux de change seront insérés ici par JavaScript -->
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Convertisseur de Devises</h2>
+            <form id="currency-converter">
+                <label for="amount">Montant en USD:</label>
+                <input type="number" id="amount" name="amount" required>
+                <label for="currency">Convertir en:</label>
+                <select id="currency" name="currency" required>
+                    <option value="EUR">Euro (EUR)</option>
+                    <option value="GBP">Livre Sterling (GBP)</option>
+                    <option value="JPY">Yen Japonais (JPY)</option>
+                    <!-- Ajouter d'autres devises si nécessaire -->
+                </select>
+                <button type="submit">Convertir</button>
+            </form>
+            <p id="conversion-result"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Informations USD. Tous droits réservés.</p>
+    </footer>
+    </body>
+</html>
